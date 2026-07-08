@@ -1,0 +1,12 @@
+name: Unzip
+on: [workflow_dispatch]
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: unzip proyecto.zip
+      - run: rm proyecto.zip
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Descomprimir proyecto
