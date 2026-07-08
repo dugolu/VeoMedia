@@ -1,0 +1,10 @@
+{
+  "appId": "com.veomedia.s2",
+  "appName": "Veo Media",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}
