@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Veo Media</string>
+    <string name="title_activity_main">Veo Media</string>
+    <string name="package_name">com.veomedia.s2</string>
+    <string name="custom_url_scheme">com.veomedia.s2</string>
+</resources>
